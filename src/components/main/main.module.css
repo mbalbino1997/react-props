@@ -1,0 +1,13 @@
+.section {
+    padding-top: 50px;
+    padding-bottom: 200px;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+}
+
+.col {
+    width: 500px;
+}
