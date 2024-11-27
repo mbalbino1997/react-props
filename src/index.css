@@ -1,4 +1,4 @@
-/*reser*/
+/*reset*/
 * {
   padding: 0;
   margin: 0;
@@ -17,4 +17,13 @@ a {
 .container {
   max-width: 900px;
   margin: 0 auto;
+}
+
+body {
+  background-color: lightgrey;
+}
+
+section {
+  padding-top: 50px;
+  padding-bottom: 200px;
 }

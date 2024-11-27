@@ -6,7 +6,9 @@ export default function App() {
   return (
     <>
       <Header />
-      <Main />
+      <section>
+        <Main />
+      </section>
 
     </>
   )
