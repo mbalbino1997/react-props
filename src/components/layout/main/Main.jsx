@@ -8,7 +8,7 @@ export default function () {
                 {posts.map(post => (
                     post.published ?
                         <div className={style.col} key={post.id}>
-                            <Card title={post.title} image={post.image} content={post.content} />
+                            <Card title={post.title} image={post.image} content={post.content} tags={post.tags} />
                         </div> : ""
 
                 ))}

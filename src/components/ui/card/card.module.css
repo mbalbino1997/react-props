@@ -12,6 +12,23 @@
     aspect-ratio: 2/1;
 }
 
+
+.red {
+    color: red;
+}
+
+.blue {
+    color: blue;
+}
+
+.yellow {
+    color: yellow;
+}
+
+.green {
+    color: green;
+}
+
 .card_img {
     width: 100%;
     aspect-ratio: 2/1;
