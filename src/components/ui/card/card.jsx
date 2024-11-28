@@ -1,7 +1,12 @@
 import style from "./card.module.css"
 import Button from "../button/Button.jsx"
 import placeholder from "../../../assets/imgs/placeholder.jpg"
-
+const tagColors = {
+    html: style.red,
+    css: style.blue,
+    php: style.green,
+    js: style.yellow,
+}
 export default function ({ title = "", image, content = "", tags }) {
     return (
         <div className={style.card}>
@@ -9,7 +14,7 @@ export default function ({ title = "", image, content = "", tags }) {
             <div className={style.card_description}>
                 <h3>{title}</h3>
                 {tags.map((tag, id) => (
-                    <span key={id} className={tag === "html" ? `${style.red}` : tag === "css" ? `${style.blue}` : tag === "php" ? `${style.green}` : tag === "js" ? `${style.yellow}` : ""}>{tag} </span>
+                    <span key={id} className={tagColors[tag] || ""}>{tag} </span>
                 ))}
                 <p>{content}</p>
                 <Button />
