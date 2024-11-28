@@ -14,19 +14,31 @@
 
 
 .red {
-    color: red;
+    display: inline-block;
+    background-color: red;
+    border-radius: 5px;
+    padding: 10px;
 }
 
 .blue {
-    color: blue;
+    display: inline-block;
+    background-color: blue;
+    border-radius: 5px;
+    padding: 10px;
 }
 
 .yellow {
-    color: yellow;
+    display: inline-block;
+    background-color: yellow;
+    border-radius: 5px;
+    padding: 10px;
 }
 
 .green {
-    color: green;
+    display: inline-block;
+    background-color: green;
+    border-radius: 5px;
+    padding: 10px;
 }
 
 .card_img {
@@ -41,4 +53,10 @@
 
 .card_description>*:not(:last-child) {
     margin-bottom: 15px;
+}
+
+.d_flex {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
 }

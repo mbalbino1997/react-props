@@ -13,9 +13,11 @@ export default function ({ title = "", image, content = "", tags }) {
             <figure className={style.card_figure}><img className={style.card_img} src={image || placeholder} alt={title} /></figure>
             <div className={style.card_description}>
                 <h3>{title}</h3>
-                {tags.map((tag, id) => (
-                    <span key={id} className={tagColors[tag] || ""}>{tag} </span>
-                ))}
+                <div className={style.d_flex}>
+                    {tags.map((tag, id) => (
+                        <span key={id} className={tagColors[tag] || ""}>{tag} </span>
+                    ))}
+                </div>
                 <p>{content}</p>
                 <Button />
             </div>

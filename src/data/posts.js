@@ -8,7 +8,7 @@ const posts = [
         image: img1 /* compila questo campo */,
         content:
             'Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit animi unde quasi enim non esse ratione voluptas voluptate, officiis veritatis magni blanditiis possimus nobis cum id inventore corporis deserunt hic.',
-        tags: ['html', 'css'],
+        tags: ['html', 'css', 'js', 'css', 'php', 'php', 'css', 'html'],
         published: true,
     },
     {
