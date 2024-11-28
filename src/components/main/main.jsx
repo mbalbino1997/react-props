@@ -1,5 +1,5 @@
 import style from "./main.module.css"
-import Card from "../ui/card/card.jsx"
+import Card from "../ui/card/Card.jsx"
 import posts from "../../data/posts.js"
 export default function () {
     return (
