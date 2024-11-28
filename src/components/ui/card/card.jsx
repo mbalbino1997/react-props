@@ -1,12 +1,13 @@
 import style from "./card.module.css"
 import Button from "../button/button.jsx"
-export default function () {
+import placeholder from "../../../assets/imgs/placeholder.jpg"
+export default function ({ title = "", image, content = "" }) {
     return (
         <div className={style.card}>
-            <div className={style.cardImg}></div>
-            <div className={style.cardDescription}>
-                <h3>Titolo del Post</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi laboriosam sapiente architecto deleniti quae! Architecto!</p>
+            <figure className={style.card_figure}><img src={image ?? placeholder} alt="" /></figure>
+            <div className={style.card_description}>
+                <h3>{title}</h3>
+                <p>{content}</p>
                 <Button />
             </div>
         </div>

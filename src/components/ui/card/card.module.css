@@ -6,18 +6,16 @@
 
 }
 
-.cardImg {
+.card_figure {
     width: 100%;
     aspect-ratio: 2/1;
-    background-color: grey;
-    margin-bottom: 20px;
 }
 
-.cardDescription {
+.card_description {
     text-wrap: wrap;
     padding: 20px;
 }
 
-.cardDescription>*:not(:last-child) {
+.card_description>*:not(:last-child) {
     margin-bottom: 15px;
 }

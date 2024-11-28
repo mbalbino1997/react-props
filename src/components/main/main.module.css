@@ -1,8 +1,9 @@
 .row {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
 }
 
 .col {
-    width: 500px;
+    width: 50%;
 }
