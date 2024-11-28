@@ -4,9 +4,15 @@
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     background-color: white;
 
+
 }
 
 .card_figure {
+    width: 100%;
+    aspect-ratio: 2/1;
+}
+
+.card_img {
     width: 100%;
     aspect-ratio: 2/1;
 }
