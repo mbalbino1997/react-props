@@ -1,5 +1,5 @@
 import style from "./card.module.css"
-import Button from "../button/button.jsx"
+import Button from "../button/Button.jsx"
 import placeholder from "../../../assets/imgs/placeholder.jpg"
 export default function ({ title = "", image, content = "" }) {
     return (
