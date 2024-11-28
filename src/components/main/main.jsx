@@ -6,9 +6,10 @@ export default function () {
         <div className="container">
             <div className={style.row}>
                 {posts.map(post => (
-                    <div className={style.col} key={post.id}>
-                        <Card title={post.title} image={post.image} content={post.content} />
-                    </div>
+                    post.published ?
+                        <div className={style.col} key={post.id}>
+                            <Card title={post.title} image={post.image} content={post.content} />
+                        </div> : ""
 
                 ))}
             </div>
